@@ -1,4 +1,4 @@
-# hbs-helpers #
+# hbs-utils #
 
 Helpers that are useful when using [hbs](https://github.com/donpark/hbs) and
 [handlebars.js](http://github.com/wycats/handlebars.js).
@@ -6,21 +6,21 @@ Helpers that are useful when using [hbs](https://github.com/donpark/hbs) and
 ## Install ##
 
 ```
-npm install hbs-helpers
+npm install hbs-utils
 ```
 
 ## Use ##
 
-You must initialize *hbs-helpers* with a reference to the *hbs* module, like so:
+You must initialize *hbs-utils* with a reference to the *hbs* module, like so:
 
 ```javascript
 var hbs = require('hbs');
-var hbshelpers = require('hbs-helpers')(hbs);
+var hbsutils = require('hbs-utils')(hbs);
 ```
 
 ## API ##
 
-hbs-helpers exposes some methods that are useful when dealing with partials in
+hbs-utils exposes some methods that are useful when dealing with partials in
 your app.
 
 ### Partials ###
@@ -28,8 +28,8 @@ your app.
 **Registration**
 
 ```javascript
-hbshelpers.registerPartials(directory[, opts, done]);
-hbshelpers.registerWatchedPartials(directory[, opts, done]);
+hbsutils.registerPartials(directory[, opts, done]);
+hbsutils.registerWatchedPartials(directory[, opts, done]);
 ```
 
 These convenience methods will register all partials (that have a *.html or *.hbs extension)
@@ -58,7 +58,7 @@ See the [handlebars.js](http://github.com/wycats/handlebars.js) README and docs 
 **Compilation**
 
 ```javascript
-hbshelpers.precompilePartials();
+hbsutils.precompilePartials();
 ```
 
 `precompilePartials` is a helper to automatically pre-compile any partials which

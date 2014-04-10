@@ -1,9 +1,9 @@
 {
-  "name": "hbs-helpers",
-  "description": "A set of helpers useful when using hbs in an express app.",
+  "name": "hbs-utils",
+  "description": "A set of helpers and utility functions useful when using hbs in an express app.",
   "version": "0.0.1",
-  "homepage": "https://github.com/dpolivy/hbs-helpers",
-  "bugs": "https://github.com/dpolivy/hbs-helpers/issues",
+  "homepage": "https://github.com/dpolivy/hbs-utils",
+  "bugs": "https://github.com/dpolivy/hbs-utils/issues",
   "license": "MIT",
   "author": "Dan Polivy <dan@cellartracker.com>",
   "contributors": [],
@@ -12,7 +12,7 @@
   	"handlebars",
   	"partials"
   ],
-  "main": "lib/hbs-helpers.js",
+  "main": "lib/hbs-utils.js",
   "directories": {
   	"lib": "./lib"
   },
@@ -26,6 +26,6 @@
   },
   "repository": {
   	"type": "git",
-  	"url": "https://github.com/dpolivy/hbs-helpers"
+  	"url": "https://github.com/dpolivy/hbs-utils"
   }
 }
