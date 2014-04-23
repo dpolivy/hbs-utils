@@ -66,4 +66,12 @@ hbsutils.precompilePartials();
 `precompilePartials` is a helper to automatically pre-compile any partials which
 have been registered but not yet compiled.
 
+## History ##
+
+**v0.0.2**
+- Added `match` and `name` options (thanks @[jas](https://github.com/jas)!)
+
+**v0.0.1**
+- Initial release
+
 ## License (MIT) ##
