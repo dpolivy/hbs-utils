@@ -68,6 +68,9 @@ have been registered but not yet compiled.
 
 ## History ##
 
+**v0.0.3**
+- Fixed declaration of `Instance` object ([#2](https://github.com/dpolivy/hbs-utils/issues/2))
+
 **v0.0.2**
 - Added `match` and `name` options (thanks @[jas](https://github.com/jas)!)
 
