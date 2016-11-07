@@ -1,7 +1,7 @@
 {
   "name": "hbs-utils",
   "description": "A set of helpers and utility functions useful when using hbs in an express app.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/dpolivy/hbs-utils",
   "bugs": "https://github.com/dpolivy/hbs-utils/issues",
   "license": "MIT",
@@ -17,8 +17,8 @@
   	"lib": "./lib"
   },
   "dependencies": {
-    "node-watch": "0.3.4",
-    "walk": "2.3.1"
+    "node-watch": "^0.4.1",
+    "walk": "^2.3.9"
   },
   "devDependencies": {},
   "engines": {
