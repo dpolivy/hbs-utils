@@ -68,6 +68,10 @@ have been registered but not yet compiled.
 
 ## History ##
 
+**v0.0.4**
+- Fixed issue with slashes in template names (thanks @[fengcen](https://github.com/fengcen)!)
+- Updated dependency version specifications
+
 **v0.0.3**
 - Fixed declaration of `Instance` object ([#2](https://github.com/dpolivy/hbs-utils/issues/2))
 
