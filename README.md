@@ -43,10 +43,11 @@ that can contain the following settings:
 - `onchange`: A callback of the form `function(template) {}` that will be called everytime a partial has been changed (added or updated). The name of the partial is passed as the sole parameter.
 - `match`: (default: `/\.(html|hbs)$/`) A regular expression that each partial's filename is tested against to determine whether it is a valid partial.
 - `name`: A function in the form `function(template) {}` that will be called for each partial. The name of the partial is passed as the sole parameter. This function gives you the opportunity to rename the partial before it is registered -- for example, to remove a leading `_` from the filename -- by returning the new name.
+- `keepName`: (default: `false`) If `true`, the partial name will keep the filename as is.
 
 `done` is an optional parameter that will be called when the initial registration of partials is complete.
 
-Partials that are loaded from a directory are named based on their filename, where spaces and hyphens are replaced with an underscore character:
+Partials that are loaded from a directory are named based on their filename, where spaces and hyphens are replaced with an underscore character (excepts when `keepName` is `true`):
 
 ```
 template.html      -> {{> template}}
